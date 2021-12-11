@@ -1,0 +1,20 @@
+[[CALC-US-01] Calculate Sum[0m
+  [when the General User input two or more numbers for sum calculation[0m
+    should shows the desired result (equals 6) when the numbers are positive (1, 2 and 3) [32m(OK)[0m
+    should shows the desired result (equals 2) when the numbers are positive or negative (1, -2 and 3) [32m(OK)[0m
+    should shows the desired result (equals -6) when the numbers are negative (-1, -2 and -3) [32m(OK)[0m
+    should shows the desired result (equals 0.6) when the numbers are non integer (0.1, 0.2 and 0.3) [32m(OK)[0m
+
+Process returned 0 (0x0)   execution time : 0.002 s
+Press ENTER to continue.
+
+[[CALC-US-01] Calculate Sum[0m
+  [when the General User input two or more numbers for sum calculation[0m
+    should shows the desired result (equals 6) when the numbers are positive (1, 2 and 3) [32m(OK)[0m
+    should shows the desired result (equals 2) when the numbers are positive or negative (1, -2 and 3) [32m(OK)[0m
+    should shows the desired result (equals -6) when the numbers are negative (-1, -2 and -3) [32m(OK)[0m
+    should shows the desired result (equals 0.6) when the numbers are non integer (0.1, 0.2 and 0.3) [32m(OK)[0m
+
+Process returned 0 (0x0)   execution time : 0.006 s
+Press ENTER to continue.
+

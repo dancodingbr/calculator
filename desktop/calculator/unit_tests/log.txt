@@ -1,0 +1,267 @@
+[==========] Running 20 tests from 11 test suites.
+[----------] Global test environment set-up.
+[----------] 1 test from when_starts_a_new_calculation
+[ RUN      ] when_starts_a_new_calculation.should_initialize_a_result_equals_zero
+[       OK ] when_starts_a_new_calculation.should_initialize_a_result_equals_zero (0 ms)
+[----------] 1 test from when_starts_a_new_calculation (0 ms total)
+
+[----------] 4 tests from when_makes_sum_calculation
+[ RUN      ] when_makes_sum_calculation.should_sum_positive_numbers
+
+result is 700.000000
+[       OK ] when_makes_sum_calculation.should_sum_positive_numbers (0 ms)
+[ RUN      ] when_makes_sum_calculation.should_sum_positive_or_negative_numbers
+
+result is 50.000000
+[       OK ] when_makes_sum_calculation.should_sum_positive_or_negative_numbers (0 ms)
+[ RUN      ] when_makes_sum_calculation.should_sum_negative_numbers
+
+result is -3.000000
+[       OK ] when_makes_sum_calculation.should_sum_negative_numbers (0 ms)
+[ RUN      ] when_makes_sum_calculation.should_sum_non_integer_numbers
+
+result is 0.300000
+[       OK ] when_makes_sum_calculation.should_sum_non_integer_numbers (0 ms)
+[----------] 4 tests from when_makes_sum_calculation (0 ms total)
+
+[----------] 1 test from when_makes_sum_calculation_and_display_is_dirty
+[ RUN      ] when_makes_sum_calculation_and_display_is_dirty.should_makes_sum_numbers
+
+result is 3.000000
+
+result is 6.000000
+
+result is 3.000000
+[       OK ] when_makes_sum_calculation_and_display_is_dirty.should_makes_sum_numbers (0 ms)
+[----------] 1 test from when_makes_sum_calculation_and_display_is_dirty (0 ms total)
+
+[----------] 3 tests from when_makes_sub_calculation
+[ RUN      ] when_makes_sub_calculation.should_sub_positive_or_negative_numbers
+
+result is 50.000000
+[       OK ] when_makes_sub_calculation.should_sub_positive_or_negative_numbers (0 ms)
+[ RUN      ] when_makes_sub_calculation.should_sub_negative_numbers
+
+result is -35.000000
+[       OK ] when_makes_sub_calculation.should_sub_negative_numbers (0 ms)
+[ RUN      ] when_makes_sub_calculation.should_sub_non_integer_numbers
+
+result is -0.400000
+[       OK ] when_makes_sub_calculation.should_sub_non_integer_numbers (0 ms)
+[----------] 3 tests from when_makes_sub_calculation (0 ms total)
+
+[----------] 1 test from when_makes_sub_calculation_and_display_is_dirty
+[ RUN      ] when_makes_sub_calculation_and_display_is_dirty.should_makes_sub_numbers
+
+result is -1.000000
+
+result is 2.000000
+
+result is -3.000000
+[       OK ] when_makes_sub_calculation_and_display_is_dirty.should_makes_sub_numbers (0 ms)
+[----------] 1 test from when_makes_sub_calculation_and_display_is_dirty (0 ms total)
+
+[----------] 3 tests from when_makes_mult_calculation
+[ RUN      ] when_makes_mult_calculation.should_mult_positive_or_negative_numbers
+
+result is 1875000.000000
+[       OK ] when_makes_mult_calculation.should_mult_positive_or_negative_numbers (0 ms)
+[ RUN      ] when_makes_mult_calculation.should_mult_negative_numbers
+
+result is 276.000000
+[       OK ] when_makes_mult_calculation.should_mult_negative_numbers (0 ms)
+[ RUN      ] when_makes_mult_calculation.should_mult_non_integer_numbers
+
+result is -0.006000
+[       OK ] when_makes_mult_calculation.should_mult_non_integer_numbers (0 ms)
+[----------] 3 tests from when_makes_mult_calculation (0 ms total)
+
+[----------] 1 test from when_makes_mult_calculation_and_display_is_dirty
+[ RUN      ] when_makes_mult_calculation_and_display_is_dirty.should_makes_mult_numbers
+
+result is -2.000000
+
+result is -6.000000
+
+result is -30.000000
+[       OK ] when_makes_mult_calculation_and_display_is_dirty.should_makes_mult_numbers (0 ms)
+[----------] 1 test from when_makes_mult_calculation_and_display_is_dirty (0 ms total)
+
+[----------] 3 tests from when_makes_div_calculation
+[ RUN      ] when_makes_div_calculation.should_div_positive_or_negative_numbers
+
+result is 7500.000000
+[       OK ] when_makes_div_calculation.should_div_positive_or_negative_numbers (0 ms)
+[ RUN      ] when_makes_div_calculation.should_div_negative_numbers
+
+result is 0.521739
+[       OK ] when_makes_div_calculation.should_div_negative_numbers (0 ms)
+[ RUN      ] when_makes_div_calculation.should_div_non_integer_numbers
+
+result is -1.666667
+[       OK ] when_makes_div_calculation.should_div_non_integer_numbers (0 ms)
+[----------] 3 tests from when_makes_div_calculation (0 ms total)
+
+[----------] 1 test from when_makes_div_calculation_and_display_is_dirty
+[ RUN      ] when_makes_div_calculation_and_display_is_dirty.should_makes_div_numbers
+
+result is -0.500000
+
+result is -0.166667
+
+result is -0.033333
+[       OK ] when_makes_div_calculation_and_display_is_dirty.should_makes_div_numbers (0 ms)
+[----------] 1 test from when_makes_div_calculation_and_display_is_dirty (0 ms total)
+
+[----------] 1 test from when_makes_div_calculation_and_divisor_is_zero
+[ RUN      ] when_makes_div_calculation_and_divisor_is_zero.should_shows_a_error_message
+
+result is 0.000000
+[       OK ] when_makes_div_calculation_and_divisor_is_zero.should_shows_a_error_message (0 ms)
+[----------] 1 test from when_makes_div_calculation_and_divisor_is_zero (0 ms total)
+
+[----------] 1 test from when_gets_an_integer_result
+[ RUN      ] when_gets_an_integer_result.should_shows_no_decimal_zeros
+[       OK ] when_gets_an_integer_result.should_shows_no_decimal_zeros (0 ms)
+[----------] 1 test from when_gets_an_integer_result (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 20 tests from 11 test suites ran. (0 ms total)
+[  PASSED  ] 20 tests.
+
+Process returned 0 (0x0)   execution time : 0.004 s
+Press ENTER to continue.
+[0;32m[==========] [mRunning 20 tests from 11 test suites.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m1 test from when_starts_a_new_calculation
+[0;32m[ RUN      ] [mwhen_starts_a_new_calculation.should_initialize_a_result_equals_zero
+[0;32m[       OK ] [mwhen_starts_a_new_calculation.should_initialize_a_result_equals_zero (0 ms)
+[0;32m[----------] [m1 test from when_starts_a_new_calculation (0 ms total)
+
+[0;32m[----------] [m4 tests from when_makes_sum_calculation
+[0;32m[ RUN      ] [mwhen_makes_sum_calculation.should_sum_positive_numbers
+
+result is 700.000000
+[0;32m[       OK ] [mwhen_makes_sum_calculation.should_sum_positive_numbers (0 ms)
+[0;32m[ RUN      ] [mwhen_makes_sum_calculation.should_sum_positive_or_negative_numbers
+
+result is 50.000000
+[0;32m[       OK ] [mwhen_makes_sum_calculation.should_sum_positive_or_negative_numbers (0 ms)
+[0;32m[ RUN      ] [mwhen_makes_sum_calculation.should_sum_negative_numbers
+
+result is -3.000000
+[0;32m[       OK ] [mwhen_makes_sum_calculation.should_sum_negative_numbers (0 ms)
+[0;32m[ RUN      ] [mwhen_makes_sum_calculation.should_sum_non_integer_numbers
+
+result is 0.300000
+[0;32m[       OK ] [mwhen_makes_sum_calculation.should_sum_non_integer_numbers (0 ms)
+[0;32m[----------] [m4 tests from when_makes_sum_calculation (0 ms total)
+
+[0;32m[----------] [m1 test from when_makes_sum_calculation_and_display_is_dirty
+[0;32m[ RUN      ] [mwhen_makes_sum_calculation_and_display_is_dirty.should_makes_sum_numbers
+
+result is 3.000000
+
+result is 6.000000
+
+result is 3.000000
+[0;32m[       OK ] [mwhen_makes_sum_calculation_and_display_is_dirty.should_makes_sum_numbers (0 ms)
+[0;32m[----------] [m1 test from when_makes_sum_calculation_and_display_is_dirty (0 ms total)
+
+[0;32m[----------] [m3 tests from when_makes_sub_calculation
+[0;32m[ RUN      ] [mwhen_makes_sub_calculation.should_sub_positive_or_negative_numbers
+
+result is 50.000000
+[0;32m[       OK ] [mwhen_makes_sub_calculation.should_sub_positive_or_negative_numbers (0 ms)
+[0;32m[ RUN      ] [mwhen_makes_sub_calculation.should_sub_negative_numbers
+
+result is -35.000000
+[0;32m[       OK ] [mwhen_makes_sub_calculation.should_sub_negative_numbers (0 ms)
+[0;32m[ RUN      ] [mwhen_makes_sub_calculation.should_sub_non_integer_numbers
+
+result is -0.400000
+[0;32m[       OK ] [mwhen_makes_sub_calculation.should_sub_non_integer_numbers (0 ms)
+[0;32m[----------] [m3 tests from when_makes_sub_calculation (0 ms total)
+
+[0;32m[----------] [m1 test from when_makes_sub_calculation_and_display_is_dirty
+[0;32m[ RUN      ] [mwhen_makes_sub_calculation_and_display_is_dirty.should_makes_sub_numbers
+
+result is -1.000000
+
+result is 2.000000
+
+result is -3.000000
+[0;32m[       OK ] [mwhen_makes_sub_calculation_and_display_is_dirty.should_makes_sub_numbers (0 ms)
+[0;32m[----------] [m1 test from when_makes_sub_calculation_and_display_is_dirty (0 ms total)
+
+[0;32m[----------] [m3 tests from when_makes_mult_calculation
+[0;32m[ RUN      ] [mwhen_makes_mult_calculation.should_mult_positive_or_negative_numbers
+
+result is 1875000.000000
+[0;32m[       OK ] [mwhen_makes_mult_calculation.should_mult_positive_or_negative_numbers (0 ms)
+[0;32m[ RUN      ] [mwhen_makes_mult_calculation.should_mult_negative_numbers
+
+result is 276.000000
+[0;32m[       OK ] [mwhen_makes_mult_calculation.should_mult_negative_numbers (0 ms)
+[0;32m[ RUN      ] [mwhen_makes_mult_calculation.should_mult_non_integer_numbers
+
+result is -0.006000
+[0;32m[       OK ] [mwhen_makes_mult_calculation.should_mult_non_integer_numbers (0 ms)
+[0;32m[----------] [m3 tests from when_makes_mult_calculation (0 ms total)
+
+[0;32m[----------] [m1 test from when_makes_mult_calculation_and_display_is_dirty
+[0;32m[ RUN      ] [mwhen_makes_mult_calculation_and_display_is_dirty.should_makes_mult_numbers
+
+result is -2.000000
+
+result is -6.000000
+
+result is -30.000000
+[0;32m[       OK ] [mwhen_makes_mult_calculation_and_display_is_dirty.should_makes_mult_numbers (0 ms)
+[0;32m[----------] [m1 test from when_makes_mult_calculation_and_display_is_dirty (0 ms total)
+
+[0;32m[----------] [m3 tests from when_makes_div_calculation
+[0;32m[ RUN      ] [mwhen_makes_div_calculation.should_div_positive_or_negative_numbers
+
+result is 7500.000000
+[0;32m[       OK ] [mwhen_makes_div_calculation.should_div_positive_or_negative_numbers (0 ms)
+[0;32m[ RUN      ] [mwhen_makes_div_calculation.should_div_negative_numbers
+
+result is 0.521739
+[0;32m[       OK ] [mwhen_makes_div_calculation.should_div_negative_numbers (0 ms)
+[0;32m[ RUN      ] [mwhen_makes_div_calculation.should_div_non_integer_numbers
+
+result is -1.666667
+[0;32m[       OK ] [mwhen_makes_div_calculation.should_div_non_integer_numbers (0 ms)
+[0;32m[----------] [m3 tests from when_makes_div_calculation (0 ms total)
+
+[0;32m[----------] [m1 test from when_makes_div_calculation_and_display_is_dirty
+[0;32m[ RUN      ] [mwhen_makes_div_calculation_and_display_is_dirty.should_makes_div_numbers
+
+result is -0.500000
+
+result is -0.166667
+
+result is -0.033333
+[0;32m[       OK ] [mwhen_makes_div_calculation_and_display_is_dirty.should_makes_div_numbers (0 ms)
+[0;32m[----------] [m1 test from when_makes_div_calculation_and_display_is_dirty (0 ms total)
+
+[0;32m[----------] [m1 test from when_makes_div_calculation_and_divisor_is_zero
+[0;32m[ RUN      ] [mwhen_makes_div_calculation_and_divisor_is_zero.should_shows_a_error_message
+
+result is 0.000000
+[0;32m[       OK ] [mwhen_makes_div_calculation_and_divisor_is_zero.should_shows_a_error_message (0 ms)
+[0;32m[----------] [m1 test from when_makes_div_calculation_and_divisor_is_zero (0 ms total)
+
+[0;32m[----------] [m1 test from when_gets_an_integer_result
+[0;32m[ RUN      ] [mwhen_gets_an_integer_result.should_shows_no_decimal_zeros
+[0;32m[       OK ] [mwhen_gets_an_integer_result.should_shows_no_decimal_zeros (0 ms)
+[0;32m[----------] [m1 test from when_gets_an_integer_result (0 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m20 tests from 11 test suites ran. (1 ms total)
+[0;32m[  PASSED  ] [m20 tests.
+
+Process returned 0 (0x0)   execution time : 0.029 s
+Press ENTER to continue.
+
