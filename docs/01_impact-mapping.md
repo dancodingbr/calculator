@@ -23,9 +23,6 @@ How does the business benefit?
 ```
  Id: [CALC-BG-01]
  Goal: Enable continuous improvement of the application
- In order to
- As a
- I want to
 ```
 
 ## Stakeholders
@@ -44,9 +41,6 @@ How can we help users or stakeholders achieve these goals?
 ```
  Id: [CALC-CP-01]
  Capability: Encourage users to stop making calculations manually
- In order to
- As the
- I want to
 ```
 
 ## Features
@@ -56,9 +50,9 @@ What software deliverables will give our users these capabilities?
 ```
  Id: [CALC-FE-01]
  Feature: Basic math operations
- In order to
- As the
- I want to 
+ In order to calculate the basic math operations more accurately
+ As a General User
+ I want to be able to make my math operations using a computer
 ```
 
 ## References
@@ -67,7 +61,7 @@ Project Artifacts
 
 | FILE |  TOOL | LINK |
 | ------ | ------ | ------ |
-| Impact Mapping | Freemind | [01_impact-mapping.md](https://github.com/dancodingbr/sources/blob/master/labprojects/calculator/docs/01_impact-mapping.mm) |
-| Requirements |  | [02_requirements.md](https://github.com/dancodingbr/sources/blob/master/labprojects/calculator/docs/02_requirements.md) |
+| Impact Mapping | Freemind | [01_impact-mapping.md](https://github.com/dancodingbr/sources/blob/main/labprojects/calculator/docs/01_impact-mapping.mm) |
+| Requirements |  | [02_requirements.md](https://github.com/dancodingbr/sources/blob/main/labprojects/calculator/docs/02_requirements.md) |
 
 

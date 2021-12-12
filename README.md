@@ -7,7 +7,7 @@ performing basic math operations.
 
 ### Linux Environment
 
-To use this application, just download the package [here](https://github.com/dancodingbr/sources/tree/master/labprojects/calculator/installer/linux/calculator.zip), unzip and then run at the prompt: 
+To use this application, just download the package [here](https://github.com/dancodingbr/calculator/tree/main/installer/linux/calculator.zip), unzip and then run at the prompt: 
 
 ```sh
 ./calculator
@@ -35,9 +35,9 @@ Note: Also install these support tools, if necessary, to make changes to the art
 
 ## Documentation
 
-The project documentation and artifacts can be found [here](https://github.com/dancodingbr/sources/tree/master/labprojects/calculator/docs).
+The project documentation and artifacts can be found [here](https://github.com/dancodingbr/calculator/tree/main/docs).
 
 ## License
 
-_license_
+MIT License
 
