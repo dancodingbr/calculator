@@ -1,0 +1,21 @@
+.entry {
+  color: #212121;
+  font-size: 18px;
+  font-weight: normal;
+  border: 1px solid #212121;
+  border-radius: 1px;
+  background: #ffffff;
+  margin: 1px 1px;
+}
+ 
+.button {
+  background: #212121;
+  background-color: #dcdcdc;
+  border: 1px solid #212121;
+  border-radius: 1px;
+  color: black;
+  font-weight: normal;
+  font-size: 14px;
+  margin: 1px 1px;
+}
+

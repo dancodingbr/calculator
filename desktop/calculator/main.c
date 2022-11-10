@@ -130,6 +130,12 @@ int main(int argc, char *argv[]) {
 
     gtk_init(&argc, &argv);
 
+    GdkDisplay *display = gdk_display_get_default();
+    GdkScreen *screen = gdk_display_get_default_screen(display);
+    GtkCssProvider *provider = gtk_css_provider_new();
+    gtk_style_context_add_provider_for_screen(screen, GTK_STYLE_PROVIDER(provider), GTK_STYLE_PROVIDER_PRIORITY_APPLICATION);
+    gtk_css_provider_load_from_path (provider, "calculator_ui.css", NULL);
+
     gtkBuilder = gtk_builder_new();
     gtk_builder_add_from_file(gtkBuilder, "calculator_ui.glade", NULL);
 

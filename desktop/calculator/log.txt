@@ -4,3 +4,26 @@ Press ENTER to continue.
 
 Process returned 0 (0x0)   execution time : 14.446 s
 Press ENTER to continue.
+
+Process returned 0 (0x0)   execution time : 5.313 s
+Press ENTER to continue.
+
+
+Process returned 0 (0x0)   execution time : 2.497 s
+Press ENTER to continue.
+
+
+Process returned 0 (0x0)   execution time : 2.921 s
+Press ENTER to continue.
+
+
+Process returned 0 (0x0)   execution time : 7.923 s
+Press ENTER to continue.
+
+Process returned 0 (0x0)   execution time : 3.338 s
+Press ENTER to continue.
+
+
+Process returned 0 (0x0)   execution time : 3.527 s
+Press ENTER to continue.
+
