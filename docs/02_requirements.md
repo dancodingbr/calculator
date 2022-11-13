@@ -70,7 +70,6 @@ Project Artifacts
 
 | FILE |  TOOL | LINK |
 | ------ | ------ | ------ |
-| UX/UI | Pencil Project | [02_ux-ui-design.epgz](https://github.com/dancodingbr/sources/blob/main/labprojects/calculator/docs/02_ux-ui-design.epgz) |
-| Architecture | Archi | [03_architecture.archimate](https://github.com/dancodingbr/sources/blob/main/labprojects/calculator/docs/03_architecture.archimate) |
+| UX/UI | Pencil Project | [02_ux-ui-design.epgz](https://github.com/dancodingbr/calculator/blob/main/docs/02_ux-ui-design.epgz) |
 
 

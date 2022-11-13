@@ -28,7 +28,7 @@ Follow these steps to prepare your development environment:
 - Install [Google Test (gtest)](https://github.com/google/googletest), to develop your unit tests;
 - Install [Glade](https://glade.gnome.org/).
 
-Note: Also install these support tools, if necessary, to make changes to the artifacts of this project: [Pencil Project](https://pencil.evolus.vn/), [Archi](https://www.archimatetool.com/), [Freemind](https://sourceforge.net/projects/freemind/).
+Note: Also install these support tools, if necessary, to make changes to the artifacts of this project: [Pencil Project](https://pencil.evolus.vn/), [Freemind](https://sourceforge.net/projects/freemind/).
 
 - Clone the repository of project.
 - Open Code Blocks IDE -> Open an existing project -> and add each of these projects in your workspace: calculator.cbp (application project), acceptance tests.cbp and unit tests.cbp.
